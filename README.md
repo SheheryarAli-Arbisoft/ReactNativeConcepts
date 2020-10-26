@@ -18,6 +18,6 @@ This API renders a native Text component. Any text used in the application must 
 
 This API render a native Button component. This is the simple button for that native environment. To use a custom button a TouchableOpacity can be used with additional styling.
 
-### 4. Stylesheet
+### 4. StyleSheet
 
 To customise any component a style prop must be provided. To maintain styles used in different components a style sheet can be created to wraps all the styles in a single object.
