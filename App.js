@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Button, Linking, Alert, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -7,15 +7,35 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  text: {
-    fontSize: 30,
+  button: {
+    marginBottom: 20,
   },
 });
 
 const App = () => {
+  const openLink = url => {
+    Linking.openURL(url).catch(() =>
+      Alert.alert('Error occurred', 'Please try again later')
+    );
+  };
+
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
+      <View style={styles.button}>
+        <Button
+          title='Open Link 1'
+          onPress={() => openLink('https://google.com')}
+          style={styles.button}
+        />
+      </View>
+
+      <View style={styles.button}>
+        <Button
+          title='Open Link 2'
+          onPress={() => openLink('fksdjfdslkfjds')}
+          style={styles.button}
+        />
+      </View>
     </View>
   );
 };
