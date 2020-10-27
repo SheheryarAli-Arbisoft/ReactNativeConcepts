@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, TouchableOpacity, Text, StyleSheet, Alert } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -9,13 +9,26 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 30,
+    color: 'white',
+  },
+  button: {
+    backgroundColor: 'blue',
+    padding: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 5,
   },
 });
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => Alert.alert('Button Clicked!')}
+      >
+        <Text style={styles.text}>Click me</Text>
+      </TouchableOpacity>
     </View>
   );
 };
