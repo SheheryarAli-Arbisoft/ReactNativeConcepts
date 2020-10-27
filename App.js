@@ -1,22 +1,75 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { SafeAreaView, View, Text, StyleSheet, ScrollView } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
   text: {
     fontSize: 30,
+    marginBottom: 10,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+  },
+  divider: {
+    height: 1,
+    backgroundColor: '#cccccc',
   },
 });
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <ScrollView>
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+
+        <Text style={styles.text}>Hello World</Text>
+        <View style={styles.divider} />
+      </ScrollView>
+    </SafeAreaView>
   );
 };
 
