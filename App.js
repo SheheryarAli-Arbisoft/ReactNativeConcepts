@@ -1,22 +1,101 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { SafeAreaView, View, Text, StyleSheet, FlatList } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+  },
+  textContainer: {
+    borderBottomWidth: 1,
+    borderBottomColor: '#cccccc',
   },
   text: {
     fontSize: 30,
+    padding: 10,
   },
 });
 
+const data = [
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+  {
+    title: 'Title',
+  },
+];
+
 const App = () => {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
+  const renderItem = ({ item }) => (
+    <View style={styles.textContainer}>
+      <Text style={styles.text}>{item.title}</Text>
     </View>
+  );
+
+  return (
+    <SafeAreaView style={styles.container}>
+      <FlatList
+        data={data}
+        renderItem={renderItem}
+        keyExtractor={(item, index) => `${index}`}
+      />
+    </SafeAreaView>
   );
 };
 
