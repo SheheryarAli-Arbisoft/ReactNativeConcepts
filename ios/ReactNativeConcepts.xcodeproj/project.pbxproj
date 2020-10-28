@@ -20,6 +20,24 @@
 		A6B8684670A12D6EF3F07052 /* libPods-ReactNativeConcepts-ReactNativeConceptsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D51AAFDECF3EDE80402F51F2 /* libPods-ReactNativeConcepts-ReactNativeConceptsTests.a */; };
 		BF98660B05522EDFEFAC9BC1 /* libPods-ReactNativeConcepts-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF2D920B2D8146DC6EB206E /* libPods-ReactNativeConcepts-tvOSTests.a */; };
 		E566F90D841D5E7394AAF83B /* libPods-ReactNativeConcepts-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B77AB858AF0A259A209CCA68 /* libPods-ReactNativeConcepts-tvOS.a */; };
+		D198FD547E204100AF2BD92B /* Grandstander-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 064183323541468CB7CB6DB7 /* Grandstander-Black.ttf */; };
+		307D37B326BE41E1ACA267A1 /* Grandstander-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5F2A9D4D18243D0A94D7DFF /* Grandstander-BlackItalic.ttf */; };
+		FBF1003D97E8402DAED46C96 /* Grandstander-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AFBCB2C56D7435BACD20BED /* Grandstander-Bold.ttf */; };
+		B1F9157FA4C04D649557BA1F /* Grandstander-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AE8083CD134273B9007E35 /* Grandstander-BoldItalic.ttf */; };
+		B7A87E5B58F8468E9D1BB1D1 /* Grandstander-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BACE420289784AF8A7948C77 /* Grandstander-ExtraBold.ttf */; };
+		996D5881F44E4856BE93F980 /* Grandstander-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26490D543D39427487A59217 /* Grandstander-ExtraBoldItalic.ttf */; };
+		344BEFFF9F4E4204B217CC9A /* Grandstander-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DABD7563B314140A8169C89 /* Grandstander-ExtraLight.ttf */; };
+		EC9CAA8645F7469E90CC59A4 /* Grandstander-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 031F5B9AA18B4E9090A103D4 /* Grandstander-ExtraLightItalic.ttf */; };
+		5869545BE3844BD09E2E1C81 /* Grandstander-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F788221D25B48BEAC01612C /* Grandstander-Italic.ttf */; };
+		A69ACE3E54D94D239BE15979 /* Grandstander-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 278DC26DF24345F79A98D1D6 /* Grandstander-Light.ttf */; };
+		A5B0C517D887477BAA9DAC5C /* Grandstander-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F7DAA54228444AEB43F0B1F /* Grandstander-LightItalic.ttf */; };
+		D574BE515F9F4DDC82EBE25F /* Grandstander-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8B2B55254CF46B9BAFD631D /* Grandstander-Medium.ttf */; };
+		A0F2705B5C0141BDB61B6002 /* Grandstander-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9017D5600DA242FEB9AFF535 /* Grandstander-MediumItalic.ttf */; };
+		2595BBDB306D4E79A4B97414 /* Grandstander-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26C97517BADE4FACA93AFC8B /* Grandstander-Regular.ttf */; };
+		055AD953CDB14EB5BA643227 /* Grandstander-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE315C0A66614139B660707C /* Grandstander-SemiBold.ttf */; };
+		BDA875BC5D4445CF85848E46 /* Grandstander-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F16E41813CF440CB632E5DB /* Grandstander-SemiBoldItalic.ttf */; };
+		FFFAEF2B2E314FE09D9DA4B7 /* Grandstander-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC8D2B996524A70B9255737 /* Grandstander-Thin.ttf */; };
+		86DEA88B178142889E0F75CB /* Grandstander-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 134AF788C2544D4488ED460D /* Grandstander-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +85,24 @@
 		D51AAFDECF3EDE80402F51F2 /* libPods-ReactNativeConcepts-ReactNativeConceptsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeConcepts-ReactNativeConceptsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		064183323541468CB7CB6DB7 /* Grandstander-Black.ttf */ = {isa = PBXFileReference; name = "Grandstander-Black.ttf"; path = "../assets/fonts/Grandstander-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D5F2A9D4D18243D0A94D7DFF /* Grandstander-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Grandstander-BlackItalic.ttf"; path = "../assets/fonts/Grandstander-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9AFBCB2C56D7435BACD20BED /* Grandstander-Bold.ttf */ = {isa = PBXFileReference; name = "Grandstander-Bold.ttf"; path = "../assets/fonts/Grandstander-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91AE8083CD134273B9007E35 /* Grandstander-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Grandstander-BoldItalic.ttf"; path = "../assets/fonts/Grandstander-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BACE420289784AF8A7948C77 /* Grandstander-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Grandstander-ExtraBold.ttf"; path = "../assets/fonts/Grandstander-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26490D543D39427487A59217 /* Grandstander-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Grandstander-ExtraBoldItalic.ttf"; path = "../assets/fonts/Grandstander-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3DABD7563B314140A8169C89 /* Grandstander-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Grandstander-ExtraLight.ttf"; path = "../assets/fonts/Grandstander-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		031F5B9AA18B4E9090A103D4 /* Grandstander-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Grandstander-ExtraLightItalic.ttf"; path = "../assets/fonts/Grandstander-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F788221D25B48BEAC01612C /* Grandstander-Italic.ttf */ = {isa = PBXFileReference; name = "Grandstander-Italic.ttf"; path = "../assets/fonts/Grandstander-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		278DC26DF24345F79A98D1D6 /* Grandstander-Light.ttf */ = {isa = PBXFileReference; name = "Grandstander-Light.ttf"; path = "../assets/fonts/Grandstander-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F7DAA54228444AEB43F0B1F /* Grandstander-LightItalic.ttf */ = {isa = PBXFileReference; name = "Grandstander-LightItalic.ttf"; path = "../assets/fonts/Grandstander-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8B2B55254CF46B9BAFD631D /* Grandstander-Medium.ttf */ = {isa = PBXFileReference; name = "Grandstander-Medium.ttf"; path = "../assets/fonts/Grandstander-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9017D5600DA242FEB9AFF535 /* Grandstander-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Grandstander-MediumItalic.ttf"; path = "../assets/fonts/Grandstander-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26C97517BADE4FACA93AFC8B /* Grandstander-Regular.ttf */ = {isa = PBXFileReference; name = "Grandstander-Regular.ttf"; path = "../assets/fonts/Grandstander-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE315C0A66614139B660707C /* Grandstander-SemiBold.ttf */ = {isa = PBXFileReference; name = "Grandstander-SemiBold.ttf"; path = "../assets/fonts/Grandstander-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F16E41813CF440CB632E5DB /* Grandstander-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Grandstander-SemiBoldItalic.ttf"; path = "../assets/fonts/Grandstander-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ADC8D2B996524A70B9255737 /* Grandstander-Thin.ttf */ = {isa = PBXFileReference; name = "Grandstander-Thin.ttf"; path = "../assets/fonts/Grandstander-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		134AF788C2544D4488ED460D /* Grandstander-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Grandstander-ThinItalic.ttf"; path = "../assets/fonts/Grandstander-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +217,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				0DD56C0B13CF76ED25A42CD6 /* Pods */,
+				AC48A29943044598A1F0D7FB /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +234,32 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		AC48A29943044598A1F0D7FB /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				064183323541468CB7CB6DB7 /* Grandstander-Black.ttf */,
+				D5F2A9D4D18243D0A94D7DFF /* Grandstander-BlackItalic.ttf */,
+				9AFBCB2C56D7435BACD20BED /* Grandstander-Bold.ttf */,
+				91AE8083CD134273B9007E35 /* Grandstander-BoldItalic.ttf */,
+				BACE420289784AF8A7948C77 /* Grandstander-ExtraBold.ttf */,
+				26490D543D39427487A59217 /* Grandstander-ExtraBoldItalic.ttf */,
+				3DABD7563B314140A8169C89 /* Grandstander-ExtraLight.ttf */,
+				031F5B9AA18B4E9090A103D4 /* Grandstander-ExtraLightItalic.ttf */,
+				0F788221D25B48BEAC01612C /* Grandstander-Italic.ttf */,
+				278DC26DF24345F79A98D1D6 /* Grandstander-Light.ttf */,
+				2F7DAA54228444AEB43F0B1F /* Grandstander-LightItalic.ttf */,
+				B8B2B55254CF46B9BAFD631D /* Grandstander-Medium.ttf */,
+				9017D5600DA242FEB9AFF535 /* Grandstander-MediumItalic.ttf */,
+				26C97517BADE4FACA93AFC8B /* Grandstander-Regular.ttf */,
+				FE315C0A66614139B660707C /* Grandstander-SemiBold.ttf */,
+				0F16E41813CF440CB632E5DB /* Grandstander-SemiBoldItalic.ttf */,
+				ADC8D2B996524A70B9255737 /* Grandstander-Thin.ttf */,
+				134AF788C2544D4488ED460D /* Grandstander-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -342,6 +405,24 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D198FD547E204100AF2BD92B /* Grandstander-Black.ttf in Resources */,
+				307D37B326BE41E1ACA267A1 /* Grandstander-BlackItalic.ttf in Resources */,
+				FBF1003D97E8402DAED46C96 /* Grandstander-Bold.ttf in Resources */,
+				B1F9157FA4C04D649557BA1F /* Grandstander-BoldItalic.ttf in Resources */,
+				B7A87E5B58F8468E9D1BB1D1 /* Grandstander-ExtraBold.ttf in Resources */,
+				996D5881F44E4856BE93F980 /* Grandstander-ExtraBoldItalic.ttf in Resources */,
+				344BEFFF9F4E4204B217CC9A /* Grandstander-ExtraLight.ttf in Resources */,
+				EC9CAA8645F7469E90CC59A4 /* Grandstander-ExtraLightItalic.ttf in Resources */,
+				5869545BE3844BD09E2E1C81 /* Grandstander-Italic.ttf in Resources */,
+				A69ACE3E54D94D239BE15979 /* Grandstander-Light.ttf in Resources */,
+				A5B0C517D887477BAA9DAC5C /* Grandstander-LightItalic.ttf in Resources */,
+				D574BE515F9F4DDC82EBE25F /* Grandstander-Medium.ttf in Resources */,
+				A0F2705B5C0141BDB61B6002 /* Grandstander-MediumItalic.ttf in Resources */,
+				2595BBDB306D4E79A4B97414 /* Grandstander-Regular.ttf in Resources */,
+				055AD953CDB14EB5BA643227 /* Grandstander-SemiBold.ttf in Resources */,
+				BDA875BC5D4445CF85848E46 /* Grandstander-SemiBoldItalic.ttf in Resources */,
+				FFFAEF2B2E314FE09D9DA4B7 /* Grandstander-Thin.ttf in Resources */,
+				86DEA88B178142889E0F75CB /* Grandstander-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,7 +38,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -53,5 +53,26 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Grandstander-Black.ttf</string>
+		<string>Grandstander-BlackItalic.ttf</string>
+		<string>Grandstander-Bold.ttf</string>
+		<string>Grandstander-BoldItalic.ttf</string>
+		<string>Grandstander-ExtraBold.ttf</string>
+		<string>Grandstander-ExtraBoldItalic.ttf</string>
+		<string>Grandstander-ExtraLight.ttf</string>
+		<string>Grandstander-ExtraLightItalic.ttf</string>
+		<string>Grandstander-Italic.ttf</string>
+		<string>Grandstander-Light.ttf</string>
+		<string>Grandstander-LightItalic.ttf</string>
+		<string>Grandstander-Medium.ttf</string>
+		<string>Grandstander-MediumItalic.ttf</string>
+		<string>Grandstander-Regular.ttf</string>
+		<string>Grandstander-SemiBold.ttf</string>
+		<string>Grandstander-SemiBoldItalic.ttf</string>
+		<string>Grandstander-Thin.ttf</string>
+		<string>Grandstander-ThinItalic.ttf</string>
+	</array>
 </dict>
 </plist>
