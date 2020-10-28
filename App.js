@@ -1,22 +1,105 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontSize: 30,
-  },
-});
+import { Container, ScrollableContainer } from './src/components/Container';
+import { Heading, SubHeading, Text } from './src/components/Text';
+import { ListItem } from './src/components/List';
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
-    </View>
+    <Container>
+      <Heading>Styled Components</Heading>
+      <SubHeading>
+        This UI has been styled using styled components for React Native
+      </SubHeading>
+      <ScrollableContainer>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+        <ListItem>
+          <Text>List Item</Text>
+        </ListItem>
+      </ScrollableContainer>
+    </Container>
   );
 };
 
