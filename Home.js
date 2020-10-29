@@ -1,21 +1,15 @@
 import React from 'react';
-import { SafeAreaView, Text, StyleSheet } from 'react-native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { Route1 } from './Route1';
+import { Route2 } from './Route2';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontSize: 30,
-  },
-});
+const Stack = createStackNavigator();
 
 export const Home = () => {
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.text}>Home screen</Text>
-    </SafeAreaView>
+    <Stack.Navigator initialRouteName='Route 1'>
+      <Stack.Screen name='Route 1' component={Route1} />
+      <Stack.Screen name='Route 2' component={Route2} />
+    </Stack.Navigator>
   );
 };

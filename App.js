@@ -15,7 +15,6 @@ const styles = StyleSheet.create({
   },
   tabText: {
     fontSize: 20,
-    color: '#888888',
   },
 });
 
@@ -24,28 +23,24 @@ const Tabs = createBottomTabNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-      <Tabs.Navigator>
-        <Tabs.Screen
-          name='Home'
-          component={Home}
-          options={{
-            title: () => (
-              <View style={styles.tabContainer}>
-                <Text style={styles.tabText}>Home</Text>
-              </View>
-            ),
-          }}
-        />
+      <Tabs.Navigator
+        tabBarOptions={{
+          tabStyle: {
+            flex: 1,
+            width: '100%',
+            justifyContent: 'center',
+            alignItems: 'center',
+          },
+          labelStyle: {
+            fontSize: 20,
+          },
+        }}
+      >
+        <Tabs.Screen name='Home' component={Home} options={{ title: 'Home' }} />
         <Tabs.Screen
           name='Details'
           component={Details}
-          options={{
-            title: () => (
-              <View style={styles.tabContainer}>
-                <Text style={styles.tabText}>Details</Text>
-              </View>
-            ),
-          }}
+          options={{ title: 'Details' }}
         />
       </Tabs.Navigator>
     </NavigationContainer>
