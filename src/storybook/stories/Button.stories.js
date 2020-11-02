@@ -12,7 +12,7 @@ storiesOf('Button', module)
     <Button
       value={text('Button Text', 'Button')}
       onPress={action('Button clicked')}
-    ></Button>
+    />
   ))
 
   .add('Secondary', () => (
@@ -20,7 +20,7 @@ storiesOf('Button', module)
       value={text('Button Text', 'Button')}
       onPress={action('Button clicked')}
       variant='secondary'
-    ></Button>
+    />
   ))
 
   .add('Danger', () => (
@@ -28,7 +28,7 @@ storiesOf('Button', module)
       value={text('Button Text', 'Button')}
       onPress={action('Button clicked')}
       variant='danger'
-    ></Button>
+    />
   ))
 
   .add('Large', () => (
@@ -36,5 +36,5 @@ storiesOf('Button', module)
       value={text('Button Text', 'Button')}
       onPress={action('Button clicked')}
       size='large'
-    ></Button>
+    />
   ));
