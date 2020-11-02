@@ -1,9 +1,14 @@
 import React from 'react';
+import { SafeAreaView } from 'react-native';
 import { StyledContainer } from './styled';
 import { propTypes, defaultProps } from './props';
 
 export const Container = ({ children, ...rest }) => {
-  return <StyledContainer {...rest}>{children}</StyledContainer>;
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      <StyledContainer {...rest}>{children}</StyledContainer>
+    </SafeAreaView>
+  );
 };
 
 Container.propTypes = propTypes;

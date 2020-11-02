@@ -1,2 +1,2 @@
-export const TODO_ADD_TODO = 'TODO_ADD_TODO';
-export const TODO_REMOVE_TODO = 'TODO_REMOVE_TODO';
+export const TODO_ADD_TODO = 'todos/addTodo';
+export const TODO_REMOVE_TODO = 'todos/removeTodo';
