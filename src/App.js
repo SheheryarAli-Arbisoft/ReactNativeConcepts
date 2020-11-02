@@ -1,5 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { Provider } from 'react-redux';
+import { store } from './store';
 
 const styles = StyleSheet.create({
   container: {
@@ -14,9 +16,11 @@ const styles = StyleSheet.create({
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
-    </View>
+    <Provider store={store}>
+      <View style={styles.container}>
+        <Text style={styles.text}>Hello World</Text>
+      </View>
+    </Provider>
   );
 };
 
