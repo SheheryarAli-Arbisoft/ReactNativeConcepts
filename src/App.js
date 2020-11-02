@@ -5,6 +5,7 @@ import { Container } from './components/Container';
 import { Text } from './components/Text';
 import { Input } from './components/Input';
 import { Button } from './components/Button';
+import { List } from './components/List';
 import { store } from './store';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           <Text h1>Todo App</Text>
           <Input placeholder='Enter todo here' />
           <Button title='Add todo' />
+          <List />
         </Container>
       </SafeAreaView>
     </Provider>
