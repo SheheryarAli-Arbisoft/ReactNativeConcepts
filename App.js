@@ -1,22 +1,18 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontSize: 30,
-  },
-});
+import React, { useState } from 'react';
+import { Container } from './src/components/Container';
+import { TextInput } from './src/components/TextInput';
 
 const App = () => {
+  const [input, setInput] = useState('');
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
-    </View>
+    <Container>
+      <TextInput
+        value={input}
+        onChangeText={text => setInput(text)}
+        placeholder='Enter input here'
+      />
+    </Container>
   );
 };
 

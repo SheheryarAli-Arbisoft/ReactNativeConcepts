@@ -1,6 +1,10 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { StyledTextInput } from './styled';
+import { propTypes, defaultProps } from './props';
 
-export const TextInput = () => {
-  return <Text>Text Input</Text>;
+export const TextInput = ({ ...rest }) => {
+  return <StyledTextInput {...rest} />;
 };
+
+TextInput.propTypes = propTypes;
+TextInput.defaultProps = defaultProps;
