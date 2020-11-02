@@ -1,25 +1,22 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { SafeAreaView } from 'react-native';
 import { Provider } from 'react-redux';
+import { Container } from './components/Container';
+import { Text } from './components/Text';
+import { Input } from './components/Input';
+import { Button } from './components/Button';
 import { store } from './store';
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontSize: 30,
-  },
-});
 
 const App = () => {
   return (
     <Provider store={store}>
-      <View style={styles.container}>
-        <Text style={styles.text}>Hello World</Text>
-      </View>
+      <SafeAreaView style={{ flex: 1 }}>
+        <Container>
+          <Text h1>Todo App</Text>
+          <Input placeholder='Enter todo here' />
+          <Button title='Add todo' />
+        </Container>
+      </SafeAreaView>
     </Provider>
   );
 };
